@@ -1,0 +1,8 @@
+INSERT INTO player (nickname, email,city, neighborhood, trainerName, trainerCode, level)
+VALUES ("soudaz", "soudaz@aol.co.uk", "Lyon", 1, "ZebreNoir666", "111122223333", 30);
+
+INSERT INTO trainer (user_id, name, code, level, created_at)
+VALUES (1, "ZebreNoir666", 111122223333, 30, 2020-04-25);
+
+INSERT INTO user (nickname, email, city, neighbourhood, created_at)
+VALUES ("Zèbre Noir", "sofianesk8@hotmail.com", "Lyon", 69001, "2020-04-25 00:10:00");

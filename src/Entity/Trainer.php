@@ -30,7 +30,7 @@ class Trainer
     private $name;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\Column(type="string", length=255)
      */
     private $code;
 
@@ -73,12 +73,12 @@ class Trainer
         return $this;
     }
 
-    public function getCode(): ?int
+    public function getCode(): ?string
     {
         return $this->code;
     }
 
-    public function setCode(int $code): self
+    public function setCode(string $code): self
     {
         $this->code = $code;
 
