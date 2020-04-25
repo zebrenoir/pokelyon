@@ -10,7 +10,7 @@ use Symfony\Component\Routing\Annotation\Route;
 /**
  * @Route("/my-api", name="my_api_")
  */
-class UserController extends AbstractController
+class ApiUserController extends AbstractController
 {
     /**
      * @Route("/users", name="user_index", methods={"GET"})
